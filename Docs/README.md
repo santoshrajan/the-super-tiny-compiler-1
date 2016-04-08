@@ -158,7 +158,7 @@ written in easy to read JavaScript.
       }]
     }
   ```
-  So for the above AST we would go:
+So for the above AST we would go:
  
   1. Program - Starting at the top level of the AST
    
@@ -176,7 +176,7 @@ written in easy to read JavaScript.
  
   The reason I use the word “visiting” is because there is this pattern of how to represent operations on elements of an object structure.
  
-Visitors
+*Visitors*
  
   The basic idea here is that we are going to create a “visitor” object that has methods that will accept different node types.
 
